@@ -1,0 +1,18 @@
+public class BannerApp {
+
+    public static void main(String[] args) {
+
+       Store banner lines in String array
+        String[] banner = {
+                String.join("", "", "", "", "", "", "", "", "", "", ""),
+                String.join("", "", " ", "WELCOME TO OOPS", " ", ""),
+                String.join("", "", " ", "UC4 - ARRAY & LOOPS", " ", ""),
+                String.join("", "", "", "", "", "", "", "", "", "", "")
+        };
+
+       Print banner using enhanced for-loop
+        for (String line : banner) {
+            System.out.println(line);
+        }
+    }
+}
